@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+     <class name="model.Employee"  table="employee">  //here table=employee  first e is small in employee because in mysql all are in lowecase letters only
+         <id name="empid" column="empid" />
+         <property name="name" column="name" />
+         <property name="salary" column="salary" />
+     </class> 
+</hibernate-mapping>
